@@ -8,6 +8,6 @@
 
 ## Note:
 
- The NuGet package name is ` SportsLoop.Extensions.Identity.Core.zh-Hans ` instead of ` Microsoft.Extensions.Identity.Core.zh-Hans `. 
+ >  The NuGet package name is ` SportsLoop.Extensions.Identity.Core.zh-Hans ` instead of ` Microsoft.Extensions.Identity.Core.zh-Hans `. 
  
- The latter package name ` Microsoft.Extensions.Identity.Core.zh-Hans`" was reserved by Microsoft so I have to choose a different one.
+ >  The latter package name ` Microsoft.Extensions.Identity.Core.zh-Hans`" was reserved by Microsoft so I have to choose a different one.
