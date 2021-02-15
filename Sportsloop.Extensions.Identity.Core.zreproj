@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project>
+  <configuration createBackupFiles="False" hideEmptyRows="False" hideTranslatedRows="False" useSpellChecker="True" resXIndentChar="	" neutralLanguageCode="en-US" languagesToDisplay="">
+    <globalSetting name="Filter-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="#LayoutScaleFactor"&gt;@1,Width=1@1,Height=1&lt;/property&gt;
+  &lt;property name="ActiveFilterString" /&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="Sort-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="#LayoutScaleFactor"&gt;@1,Width=1@1,Height=1&lt;/property&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="projectMruItems">&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;items&gt;&lt;item type="0" checksum="1495344443" /&gt;&lt;item type="2" checksum="896144538" /&gt;&lt;/items&gt;</globalSetting>
+    <userSetting name="fanrui@BJ.filesInitialDir">E:\GitHubRepos\Sportsloop.Extensions.Identity.Core.zh-Hans</userSetting>
+    <userSetting name="fanrui@BJ.FindText">
+    </userSetting>
+    <userSetting name="fanrui@BJ.RecentFiles">E:\GitHubRepos\Sportsloop.Extensions.Identity.Core.zh-Hans\Microsoft.Extensions.Identity.Core.Resources.resx;E:\GitHubRepos\Sportsloop.Extensions.Identity.Core.zh-Hans\Microsoft.Extensions.Identity.Core.Resources.zh-Hans.resx###***###E:\GitHubRepos\Sportsloop.Extensions.Identity.Core.zh-Hans\Microsoft.Extensions.Identity.Core.Resources.resx;E:\GitHubRepos\Sportsloop.Extensions.Identity.Core.zh-Hans\Microsoft.Extensions.Identity.Core.Resources.zh-Hans.resx</userSetting>
+    <description>
+    </description>
+  </configuration>
+  <fileGroups>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="3e53630b-4f7b-470d-8765-452ff65918ac">
+      <file filePath="Microsoft.Extensions.Identity.Core.Resources.resx" absoluteFilePath="E:\GitHubRepos\Sportsloop.Extensions.Identity.Core.zh-Hans\Microsoft.Extensions.Identity.Core.Resources.resx" uniqueID="00000000-0000-0000-0000-000000000000" />
+      <file filePath="Microsoft.Extensions.Identity.Core.Resources.zh-Hans.resx" absoluteFilePath="E:\GitHubRepos\Sportsloop.Extensions.Identity.Core.zh-Hans\Microsoft.Extensions.Identity.Core.Resources.zh-Hans.resx" uniqueID="00000000-0000-0000-0000-000000000000" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+  </fileGroups>
+  <projectFolders />
+</project>

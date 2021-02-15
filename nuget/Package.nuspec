@@ -3,17 +3,21 @@
   <metadata>
     <id>SportsLoop.Extensions.Identity.Core.zh-Hans</id>
     <title>Microsoft.Extensions.Identity.Core.zh-Hans</title>
-    <version>2.2.0</version>
+    <version>5.0.0</version>
     <authors>Rui Fan</authors>
     <owners>Rui Fan</owners>
-    <licenseUrl>https://github.com/fanruinet/Microsoft.Extensions.Identity.Core.zh-Hans/blob/master/LICENSE</licenseUrl>
+    <license type="expression">Apache-2.0</license>
     <projectUrl>https://github.com/fanruinet/Microsoft.Extensions.Identity.Core.zh-Hans</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>此程序包包含非官方的Microsoft.Extensions.Identity.Core简体中文资源附属程序集。</description>
     <summary>此程序包包含非官方的Microsoft.Extensions.Identity.Core简体中文资源附属程序集。</summary>
-    <releaseNotes>Initial release based on Microsoft.Extensions.Identity.Core v2.2.0.</releaseNotes>
-    <copyright>Copyright 2018</copyright>
+    <releaseNotes>Based on Microsoft.Extensions.Identity.Core v5.0.0.</releaseNotes>
+    <copyright>Copyright ©2021 Rui Fan</copyright>
     <tags>ASP.NET Core Identity</tags>
     <language>zh-Hans</language>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+      </group>
+    </dependencies>
   </metadata>
 </package>

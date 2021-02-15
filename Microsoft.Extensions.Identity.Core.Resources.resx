@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="InvalidPasswordHasherIterationCount">
+		<value>The iteration count must be a positive integer.</value>
+	</data>
+	<data name="UserAlreadyInRole">
+		<value>User already in role '{0}'.</value>
+	</data>
+	<data name="StoreNotIUserAuthenticationTokenStore">
+		<value>Store does not implement IUserAuthenticationTokenStore&lt;User&gt;.</value>
+	</data>
+	<data name="UserNotInRole">
+		<value>User is not in role '{0}'.</value>
+	</data>
+	<data name="RoleNotFound">
+		<value>Role {0} does not exist.</value>
+	</data>
+	<data name="DuplicateUserName">
+		<value>Username '{0}' is already taken.</value>
+	</data>
+	<data name="InvalidManagerType">
+		<value>Type {0} must derive from {1}&lt;{2}&gt;.</value>
+	</data>
+	<data name="StoreNotIUserClaimStore">
+		<value>Store does not implement IUserClaimStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="StoreNotIUserEmailStore">
+		<value>Store does not implement IUserEmailStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="PasswordMismatch">
+		<value>Incorrect password.</value>
+	</data>
+	<data name="UserLockedOut">
+		<value>User is locked out.</value>
+	</data>
+	<data name="StoreNotIUserLockoutStore">
+		<value>Store does not implement IUserLockoutStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="StoreNotIUserTwoFactorRecoveryCodeStore">
+		<value>Store does not implement IUserTwoFactorRecoveryCodeStore&lt;User&gt;.</value>
+	</data>
+	<data name="InvalidRoleName">
+		<value>Role name '{0}' is invalid.</value>
+	</data>
+	<data name="NoTokenProvider">
+		<value>No IUserTwoFactorTokenProvider&lt;{0}&gt; named '{1}' is registered.</value>
+	</data>
+	<data name="StoreNotIUserRoleStore">
+		<value>Store does not implement IUserRoleStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="StoreNotIUserLoginStore">
+		<value>Store does not implement IUserLoginStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="LoginAlreadyAssociated">
+		<value>A user with this login already exists.</value>
+	</data>
+	<data name="InvalidUserName">
+		<value>Username '{0}' is invalid, can only contain letters or digits.</value>
+	</data>
+	<data name="NoRoleType">
+		<value>No RoleType was specified, try AddRoles&lt;TRole&gt;().</value>
+	</data>
+	<data name="PasswordRequiresUniqueChars">
+		<value>Passwords must use at least {0} different characters.</value>
+	</data>
+	<data name="StoreNotIUserPhoneNumberStore">
+		<value>Store does not implement IUserPhoneNumberStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="StoreNotIUserConfirmationStore">
+		<value>Store does not implement IUserConfirmationStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="PasswordTooShort">
+		<value>Passwords must be at least {0} characters.</value>
+	</data>
+	<data name="NoPersonalDataProtector">
+		<value>No IPersonalDataProtector service was registered, this is required when ProtectPersonalData = true.</value>
+	</data>
+	<data name="UserAlreadyHasPassword">
+		<value>User already has a password set.</value>
+	</data>
+	<data name="StoreNotIUserAuthenticatorKeyStore">
+		<value>Store does not implement IUserAuthenticatorKeyStore&lt;User&gt;.</value>
+	</data>
+	<data name="PasswordRequiresNonAlphanumeric">
+		<value>Passwords must have at least one non alphanumeric character.</value>
+	</data>
+	<data name="NullSecurityStamp">
+		<value>User security stamp cannot be null.</value>
+	</data>
+	<data name="MustCallAddIdentity">
+		<value>AddIdentity must be called on the service collection.</value>
+	</data>
+	<data name="StoreNotIUserPasswordStore">
+		<value>Store does not implement IUserPasswordStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="ConcurrencyFailure">
+		<value>Optimistic concurrency failure, object has been modified.</value>
+	</data>
+	<data name="InvalidToken">
+		<value>Invalid token.</value>
+	</data>
+	<data name="InvalidEmail">
+		<value>Email '{0}' is invalid.</value>
+	</data>
+	<data name="UserNameNotFound">
+		<value>User {0} does not exist.</value>
+	</data>
+	<data name="StoreNotIQueryableRoleStore">
+		<value>Store does not implement IQueryableRoleStore&lt;TRole&gt;.</value>
+	</data>
+	<data name="StoreNotIUserTwoFactorStore">
+		<value>Store does not implement IUserTwoFactorStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="StoreNotIRoleClaimStore">
+		<value>Store does not implement IRoleClaimStore&lt;TRole&gt;.</value>
+	</data>
+	<data name="DuplicateRoleName">
+		<value>Role name '{0}' is already taken.</value>
+	</data>
+	<data name="StoreNotIQueryableUserStore">
+		<value>Store does not implement IQueryableUserStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="RecoveryCodeRedemptionFailed">
+		<value>Recovery code redemption failed.</value>
+	</data>
+	<data name="PasswordRequiresDigit">
+		<value>Passwords must have at least one digit ('0'-'9').</value>
+	</data>
+	<data name="PasswordRequiresLower">
+		<value>Passwords must have at least one lowercase ('a'-'z').</value>
+	</data>
+	<data name="PasswordRequiresUpper">
+		<value>Passwords must have at least one uppercase ('A'-'Z').</value>
+	</data>
+	<data name="InvalidPasswordHasherCompatibilityMode">
+		<value>The provided PasswordHasherCompatibilityMode is invalid.</value>
+	</data>
+	<data name="DuplicateEmail">
+		<value>Email '{0}' is already taken.</value>
+	</data>
+	<data name="StoreNotIUserSecurityStampStore">
+		<value>Store does not implement IUserSecurityStampStore&lt;TUser&gt;.</value>
+	</data>
+	<data name="DefaultError">
+		<value>An unknown failure has occurred.</value>
+	</data>
+	<data name="UserLockoutNotEnabled">
+		<value>Lockout is not enabled for this user.</value>
+	</data>
+	<data name="StoreNotIProtectedUserStore">
+		<value>Store does not implement IProtectedUserStore&lt;TUser&gt; which is required when ProtectPersonalData = true.</value>
+	</data>
+</root>
