@@ -1,23 +1,27 @@
 ﻿<?xml version="1.0"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SportsLoop.Extensions.Identity.Core.zh-Hans</id>
     <title>Microsoft.Extensions.Identity.Core.zh-Hans</title>
-    <version>5.0.0</version>
+    <version>6.0.0</version>
     <authors>Rui Fan</authors>
     <owners>Rui Fan</owners>
     <license type="expression">Apache-2.0</license>
     <projectUrl>https://github.com/fanruinet/Microsoft.Extensions.Identity.Core.zh-Hans</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>此程序包包含非官方的Microsoft.Extensions.Identity.Core简体中文资源附属程序集。</description>
+    <description>此程序包包含非官方的Microsoft.Extensions.Identity.Core简体中文本地化资源附属程序集。</description>
+    <readme>README.md</readme>
     <summary>此程序包包含非官方的Microsoft.Extensions.Identity.Core简体中文资源附属程序集。</summary>
-    <releaseNotes>Based on Microsoft.Extensions.Identity.Core v5.0.0.</releaseNotes>
+    <releaseNotes>Based on Microsoft.Extensions.Identity.Core v6.0.0.</releaseNotes>
     <copyright>Copyright ©2021 Rui Fan</copyright>
     <tags>ASP.NET Core Identity</tags>
     <language>zh-Hans</language>
     <dependencies>
-      <group targetFramework="netstandard2.0">
-      </group>
+      <dependency id="SportsLoop.Extensions.Identity.CoreMicrosoft.AspNet.Mvc" version="[6.0.0]" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="lib\**" target="lib/{framework name}[{version}]" />
+    <file src="..\README.md" target="" />
+  </files>
 </package>
